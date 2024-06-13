@@ -1,0 +1,38 @@
+Название 	Описание 	Поля – характеристика 
+client1 	клиенты 	Idclient 
+Name 
+Mail 
+Adress 
+Tel телефон 
+Idregion идентификатор региона 
+Status 
+QualityOrder количество договоров клиента 
+Region 	регион клиента 	Idregion 
+NameRegion наименование региона 
+product 	товар 	Idprod 
+NameProd наименование 
+characteristic1 характеристика 1 characteristic2 характеристика 2 
+Status1 
+Balance 
+weightAvgPprice средневзвешенная стоимость прожажи 
+
+plan 	План выпуска продукции 	NumMonth номер месяца 
+Idprod 
+Quantity 
+storage1 	склад 	Idstorage идентификатор склада NameStorage 
+release1 	Сдача произведенных продуктов (товаров) на склады 	RelDate дата сдачи продукта на склад 
+Idstorage  
+Idprod 
+Quantity количество сданного продукта 
+dogovor 	Заказ (договор) 	IdOrder идентификатор договора (заказа) 
+DateDog дата договора 
+Idclient 
+Total сумма по договору 
+delivery 	 Отгрузка по договору 	Iddel идентификатор отгрузки 
+DateDel дата отгрузки 
+Iddogovor идентификатор договора (заказа) 
+TotalDel сумма отгрузки 
+specdeliv 	Спецификация отгрузки по договору (заказу) 	Iddel 
+Idprod 
+Price цена отгрузки (по договору) 
+QuantityDel количество отгруженного 
